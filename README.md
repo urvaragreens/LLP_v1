@@ -18,25 +18,27 @@ This repository includes a GitHub Actions workflow at `.github/workflows/pages.y
 
 ## Brand and business details
 
-- `assets/images/logo.png` is a crop of the supplied signboard photograph, preserving the original mint-green wordmark and mushroom mascot. The signboard photograph itself is not copied into the public site.
-- The GSTIN, Udyam number and CIN-like signboard identifier are intentionally not published. Add a registration identifier only after the owner has verified it and explicitly approved publication.
-- Confirm phone numbers, email, postal address and enquiry wording with the business before launch.
-- The only product card is for oyster mushrooms. Add other product varieties or claims only after the owner confirms them.
+- `assets/images/logo.png` is cropped from the owner-supplied `logo.jpeg` and used in the header and footer.
+- Contact links use `+91 63616 45820` and `contactus@notjustfungi.com`; the address and GSTIN shown on the site were provided by the owner.
+- Product categories and varieties are owner-provided. Availability, prices and packaging are not stated; visitors are invited to enquire.
 - The cultivation copy is a general overview, not a statement of NOT JUST FUNGI LLP's specific process.
 
 ## Photography
 
-The supplied project does not include farm photographs. Images currently used are representative reference imagery, not photographs of this business or farm. Replace them with owner-supplied photographs before presenting a farm gallery:
+The hero banner and cultivation gallery use photographs supplied by the owner. The copies are stored locally in `assets/images/` and use relative URLs.
 
-| Local file | Source and credit | License |
-| --- | --- | --- |
-| `assets/images/hero-mushrooms.jpg` | [Close-up of Oyster Mushrooms in West Java, Indonesia](https://www.pexels.com/photo/close-up-of-oyster-mushrooms-in-west-java-indonesia-35992234/), Ruyat Supriazi | [Pexels license](https://www.pexels.com/license/) |
-| `assets/images/mushroom-cluster.jpg` | [White oyster mushroom detail](https://www.pexels.com/photo/petals-of-white-blooming-flowers-12586615/), Rizky Sabriansyah | [Pexels license](https://www.pexels.com/license/) |
-| `assets/images/cultivation-detail.jpg` | [Button mushrooms growing in an indoor farm setting](https://www.pexels.com/photo/button-mushrooms-growing-in-indoor-farm-setting-31243424/), Airam Dato-on | [Pexels license](https://www.pexels.com/license/) |
-| `assets/images/harvest-detail.jpg` | [A person harvesting oyster mushrooms](https://www.pexels.com/photo/a-person-harvesting-white-mushrooms-2478421/), Mark Stebnicki | [Pexels license](https://www.pexels.com/license/) |
-| `assets/images/wild-oyster-detail.jpg` | [Close-up of Oyster Mushrooms at a Farmer's Market](https://www.pexels.com/photo/closeup-of-oyster-mushrooms-at-farmer-s-market-36045832/), Tim Mossholder | [Pexels license](https://www.pexels.com/license/) |
-
-Each photograph is stored locally in `assets/images/`; the site does not request image files from a third-party host at runtime. Keep the relevant credit information if retaining these files. Optimize replacement images for the displayed crop, preserve descriptive alt text, and update this list when assets change.
+| Website file | Supplied source |
+| --- | --- |
+| `assets/images/hero-banner.jpeg` | `hero_banner.jpeg` |
+| `assets/images/grow-01.jpeg` | `grow_image_1.jpeg` |
+| `assets/images/grow-02.jpeg` | `grow_image2.jpeg` |
+| `assets/images/grow-03.jpeg` | `grow_image3.jpeg` |
+| `assets/images/grow-04.jpeg` | `grow_image4.jpeg` |
+| `assets/images/grow-05.jpeg` | `grow_image5.jpeg` |
+| `assets/images/grow-06.jpeg` | `grow_image6.jpeg` |
+| `assets/images/grow-07.jpeg` | `grow_image7.jpeg` |
+| `assets/images/grow-08.jpeg` | `grow_image8.jpeg` |
+| `assets/images/grow-09.jpeg` | `grow_image9.jpeg` |
 
 ## Editable content
 
