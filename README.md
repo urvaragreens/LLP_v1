@@ -8,11 +8,11 @@ Open `index.html` in a browser, or serve this folder with any static file server
 
 ## Publish with GitHub Pages
 
-This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml`. It publishes the static site automatically when changes are pushed to `main`.
+This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml`. It publishes the static site automatically when changes are pushed to `main` or `master`.
 
 1. Create a GitHub repository and add the contents of this folder at its root.
 2. In the repository, open **Settings → Pages** and set the build and deployment source to **GitHub Actions**.
-3. Push to the `main` branch, or run **Deploy static site to GitHub Pages** from the repository's **Actions** tab.
+3. Push to the `main` or `master` branch, or run **Deploy static site to GitHub Pages** from the repository's **Actions** tab.
 4. Once the workflow completes, open the Pages URL shown in the deployment job. Relative asset paths work for project pages and custom domains.
 5. Once the final domain is known, uncomment and update the canonical URL in `index.html`.
 
@@ -39,6 +39,14 @@ The hero banner and cultivation gallery use photographs supplied by the owner. T
 | `assets/images/grow-07.jpeg` | `grow_image7.jpeg` |
 | `assets/images/grow-08.jpeg` | `grow_image8.jpeg` |
 | `assets/images/grow-09.jpeg` | `grow_image9.jpeg` |
+| `assets/images/pellets.jpeg` | `pellets.jpeg` |
+
+Cultivation-room videos are stored locally in `assets/videos/` and use native browser playback controls:
+
+| Website file | Supplied source |
+| --- | --- |
+| `assets/videos/dark_room.mp4` | `dark_room.mp4` |
+| `assets/videos/fruiting_room.mp4` | `fruiting_room.mp4` |
 
 ## Editable content
 

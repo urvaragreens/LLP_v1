@@ -40,7 +40,7 @@ if (menuButton && navigation) {
   });
 
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 820) {
+    if (window.innerWidth > 1020) {
       closeMenu();
     }
   });
