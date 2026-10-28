@@ -1042,6 +1042,12 @@ h2 em {
   height: 18px;
 }
 
+.contact-whatsapp svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
 .contact-instagram > span:first-of-type {
   background: linear-gradient(90deg, #d9822b, #d84672, #7841cb);
   background-clip: text;
